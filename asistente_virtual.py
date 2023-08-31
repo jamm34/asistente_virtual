@@ -56,7 +56,7 @@ def transformar_audio_en_texto():
             return "sigo  esperando"
 
 
-#asignar idioma      
+#asignar idioma  español por defaul     
 id = 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech\Voices\Tokens\TTS_MS_ES-MX_SABINA_11.0'
 # funcio para qie el asistente pueda ser escuchado
 def hablar(mensaje):
